@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dane>
+  <podzespól>
+    <nazwa>Procesor</nazwa>
+    <opis>"mózg komputera"</opis>
+    <koszt>1000-2000 zł</koszt>
+    <przyklad>wszędzie</przyklad>
+  </podzespól>
+  <podzespól>
+    <nazwa>Karta graficzna</nazwa>
+    <opis>Dzięki niej wyświetlany jest obraz</opis>
+    <koszt>1000-4500 zł</koszt>
+    <przyklad>Nvidia, AMD</przyklad>
+  </podzespól>
+  <podzespól>
+    <nazwa>Płyta główna</nazwa>
+    <opis>Płyta na której umieszczone są podzespoły</opis>
+    <koszt>150-800 zł</koszt>
+    <przyklad>IBM</przyklad>
+  </podzespól>
+</dane>
