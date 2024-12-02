@@ -1,0 +1,130 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.niemain {
+    text-align: center;
+    padding: 1 centimeters;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.main {
+    color: green;
+    text-align: center;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.container {
+    margin: 20px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.column p {
+    text-align: justify;
+}
+
+.akapit {
+    margin-top: 1 cm;
+    margin-bottom: 1 cm;
+    font-style: italic;
+    width: 100%;
+}
+
+
+img {
+    width: 200px;
+    height: 150px;
+    margin: 1 cm;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+
+img:hover {
+    border-color: #007BFF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+table th {
+    background: #000;
+    color: #fff;
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+form input, form select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: blue;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+form button {
+    padding: 10px 20px;
+    margin: 1 cm;
+    color: #fff;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}
+
+li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.list-box {
+    margin: 20px auto;
+    width: fit-content;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: left;
+}
+
+.list-box ol {
+    list-style-type: upper-alpha;
+}
