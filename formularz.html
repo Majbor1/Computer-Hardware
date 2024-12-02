@@ -12,13 +12,22 @@
     </header>
     <div class="container">
         <form action="#">
-            <label for="imie">Imię:</label>
-            <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required>
+            <label for="imie">Imię:</label><br>
+            <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required><br>
 
-            <label for="nazwisko">Nazwisko:</label>
-            <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko" required>
+            <label for="nazwisko">Nazwisko:</label><br>
+            <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko" required><br>
 
-            <label for="wybór">Wybierz element hardware:</label>
+            <label for="wybór">Wybierz producenta hardware:</label><br>
+            <select id="wybór" name="wybór">
+                <option value="Acer">Acer</option>
+                <option value="Apple">Apple</option>
+                <option value="Asus">Asus</option>
+                <option value="Dell">Dell</option>
+                <option value="HP">HP</option>
+            </select>
+            <br>
+            <label for="wybór">Wybierz element hardware:</label><br>
             <select id="wybór" name="wybór">
                 <option value="obudowa">obudowa</option>
                 <option value="płyta główna">płyta główna</option>
@@ -27,7 +36,7 @@
                 <option value="dysk SSD">dysk SSD</option>
                 <option value="karta graficzna">karta graficzna</option>
                 <option value="zasilacz">zasilacz</option>
-            </select>
+            </select><br>
 
             <button type="submit">Zapisz</button>
             <button type="reset">Anuluj</button>
