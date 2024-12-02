@@ -1,0 +1,23 @@
+{
+    "dane": [
+      {
+        "system": "Procesor",
+        "opis": "mózg komputera",
+        "koszt": "1000-2000 zł",
+        "przyklad": "wszędzie"
+      },
+      {
+        "system": "Karta graficzna",
+        "opis": "Dzięki niej wyświetlany jest obraz",
+        "koszt": "1000-4500 zł",
+        "przyklad": "Nvidia, AMD"
+      },
+      {
+        "system": "Płyta główna",
+        "opis": "Płyta na której umieszczone są podzespoły",
+        "koszt": "150-800 zł",
+        "przyklad": "IBM"
+      }
+    ]
+  }
+  
