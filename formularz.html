@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="niemain">
+        <h1>Formularz</h1>
+    </header>
+    <div class="container">
+        <form action="#">
+            <label for="imie">Imię:</label><br>
+            <input type="text" id="imie" name="imie" placeholder="Wpisz swoje imię" required><br>
+
+            <label for="nazwisko">Nazwisko:</label><br>
+            <input type="text" id="nazwisko" name="nazwisko" placeholder="Wpisz swoje nazwisko" required><br>
+
+            <label for="wybór">Wybierz producenta hardware:</label><br>
+            <select id="wybór" name="wybór">
+                <option value="Acer">Acer</option>
+                <option value="Apple">Apple</option>
+                <option value="Asus">Asus</option>
+                <option value="Dell">Dell</option>
+                <option value="HP">HP</option>
+            </select>
+            <br>
+            <label for="wybór">Wybierz element hardware:</label><br>
+            <select id="wybór" name="wybór">
+                <option value="obudowa">obudowa</option>
+                <option value="płyta główna">płyta główna</option>
+                <option value="procesor">procesor</option>
+                <option value="pamięc RAM">pamięć RAM</option>
+                <option value="dysk SSD">dysk SSD</option>
+                <option value="karta graficzna">karta graficzna</option>
+                <option value="zasilacz">zasilacz</option>
+            </select><br>
+
+            <button type="submit">Zapisz</button>
+            <button type="reset">Anuluj</button>
+        </form>
+    </div>
+</body>
+</html>
